@@ -17,17 +17,17 @@
 
 // Songs
 var mySong = {
-	"title":"24K Magic",
-	"artist":"Bruno Mars",
-	"mp3-url":"https://open.spotify.com/track/6b8Be6ljOzmkOmFslEb23P",
-	"image-url":"https://images-na.ssl-images-amazon.com/images/I/71Gr9aCHQfL._SY355_.jpg",
+	"title":"Could You be loved",
+	"artist":"Bob Marley",
+	"mp3-url":"https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD",
+	"image-url":"https://img.cdandlp.com/2017/01/imgL/118475191-2.jpg",
 }
 
 var myPlayList = [
 	{
-		"title":"24K Magic",
-		"artist":"Bruno Mars",
-		"mp3-url":"https://open.spotify.com/track/6b8Be6ljOzmkOmFslEb23P",
+		"title":"Could You Be Loved",
+		"artist":"Bob Marley ",
+		"mp3-url":"https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD",
 		"image-url":"https://images-na.ssl-images-amazon.com/images/I/71Gr9aCHQfL._SY355_.jpg",
 	},
 	{
@@ -49,7 +49,7 @@ var myPlayList = [
 
 // DOCUMENT READY FUNCTION
 $( document ).ready(function() {
-  
+  $("#bob").append("<h1>Hi</h1>");
 
 
 
